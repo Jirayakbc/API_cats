@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(56, 53, 53, 0.781);
+    
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://w0.peakpx.com/wallpaper/727/435/HD-wallpaper-cat-gato-animal-blanco-dark-mascota-pelos-sombra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+h1, p, {
+    align-items: center;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    letter-spacing: 1px;
+    
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+img {
+
+    width: 30vw;
+    height: 50vh;
+    border: 2px solid white;
+}
+
+button{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5px;
+    width: 80px;
+    height: 80px;
+    background-image: none;
+    background-color: rgba(34, 15, 53, 0.945);
+    color: white;
+    letter-spacing: 2px;
+    align-items: center;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+button:hover{
+    
+    background-color: rgba(126, 123, 129, 0.836);
+;
+
+}
+
+footer {
+    position: fixed;
+    bottom:0;
+    left: 43vw;
+    right: 43vw;
+    text-align: center;
+    background-color: rgba(56, 53, 53, 0.781);
+   
+}
